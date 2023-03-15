@@ -1,11 +1,11 @@
-Cap,    Geo,    Arsenal
-9,      GPS9,   aaabbcd 
-6,      GPS6,   act     
-1,      GPS1,   bc      
-8,      GPS8,   abbccdt
-6,      GPS6,   act     *
-9,      GPS9,   aaabbcd *
-5,      GPS5,   bct     
-5,      GPS5,   bct     *
-7,      GPS7,   aaabbct
-1,      GPS1,   bc      *
+Cap Geo Arsenal 
+9 GPS9 aaabbcd 
+6 GPS6 act 
+1 GPS1 bc 
+8 GPS8 abbccdt 
+6 GPS6 act 
+9 GPS9 aaabbcd 
+5 GPS5 bct 
+5 GPS5 bct 
+7 GPS7 aaabbct 
+1 GPS1 bc 
