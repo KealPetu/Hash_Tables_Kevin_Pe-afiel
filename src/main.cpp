@@ -56,7 +56,7 @@ void kpShowCoordenada(){
     cout<<endl;
     
     if(kpFile.fail()){
-        cout<<"No se pudo abrir el archivo."<<endl;
+        cout<<RED<<"No se pudo abrir el archivo."<<WHITE<<endl;
         exit(1);
     }else{
         while (!kpFile.eof()){
@@ -70,12 +70,34 @@ void kpShowCoordenada(){
                 cout<<GREEN<<"\r\r\r\r\r100% "<<kpTexto<<endl;
             }
         }
+        kpFile.close();
     }
     cout<<endl;
 }
 
-void kpHash(){
+void kpRead(){
+    char separador = ' ';
+    int i = 0;
+    string s;
 
+    ifstream kpFile;
+    string kpTexto;
+    kpFile.open("../files/coordenadas.txt", ios::in);
+
+    while (!kpFile.eof()){
+    getline(kpFile,kpTexto);
+        while (kpTexto[i] != '\0'){
+            if (kpTexto[i] != separador){
+                s += kpTexto[i];
+            }else{
+                cout<<s<<'\t';
+                s.clear();
+            }
+        i++;
+        }
+    i=0;
+    cout<<endl;
+    } 
 }
 
 void kpDatos(){
@@ -105,8 +127,8 @@ void kpAFD(){
 
 int main()
 {
-    kpShowCoordenada();
-    kpDatos();
+    kpRead();
+    // kpDatos();
     return 0;
 }
 
