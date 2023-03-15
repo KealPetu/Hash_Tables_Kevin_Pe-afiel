@@ -1,3 +1,7 @@
+// @author  Kevin Alexander Peñafiel Tuz
+//@date     15/03/2023
+//tema      Hash Tables
+
 #include <string>
 #include <fstream>
 #include <iostream>
