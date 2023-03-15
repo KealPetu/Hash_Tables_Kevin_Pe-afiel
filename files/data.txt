@@ -1,7 +1,10 @@
-s   
-d   f
-f   
-d   f
-d   f   r
-t   
-g   
+Nodos en key 1: (GPS1, bc) 
+(GPS1, bc) 
+Nodos en key 5: (GPS5, bct) BOMB-II
+(GPS5, bct) BOMB-II
+Nodos en key 6: (GPS6, act) 
+(GPS6, act) 
+Nodos en key 7: (GPS7, aaabbct) BOMB-II
+Nodos en key 8: (GPS8, abbccdt) 
+Nodos en key 9: (GPS9, aaabbcd) BOMB-II
+(GPS9, aaabbcd) BOMB-II
